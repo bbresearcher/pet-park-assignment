@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
     /* ################ TASK SPEC AND ASSUMPTIONS MADE ######################
     1. The Borrowing is only based on On-Chain Data, no ERC721 or other Tokens need to be transferred
-    2. The Ownable functionality must be coded and not based on a library like OpenZeppelin
+    2. The Ownable functionality must be coded and not based on a library like OpenZeppelin.
        ################ END TASK SPEC AND ASSUMPTIONS #######################*/ 
 
 contract PetPark {
