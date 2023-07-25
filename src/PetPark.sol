@@ -92,7 +92,9 @@ contract PetPark {
             require((_animalType == AnimalType.Dog) || (_animalType== AnimalType.Fish),
                 "Invalid animal for men");
         }else{
-            require(_animalType == AnimalType.Cat && _age > 40,"Invalid animal for women under 40");
+            if(_animalType == AnimalType.Cat){
+                require(_age > 40,"Invalid animal for women under 40");
+            }
         }
         
         // continue
